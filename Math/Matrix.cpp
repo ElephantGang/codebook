@@ -3,21 +3,21 @@ struct Matrix {
     vector<vector<ll>> m;
     Matrix(int r, int c): r(r), c(c), m(r, vector<ll>(c)) {}
     vector<ll> &operator[](int i) { return m[i]; }
-    Matrix operator+(const Matrix &a) {
+    Matrix operator +(const Matrix &a) {
         Matrix rev(r, c);
         for (int i = 0; i < r; ++i)
             for (int j = 0; j < c; ++j)
                 rev[i][j] = m[i][j] + a.m[i][j];
         return rev;
     }
-    Matrix operator-(const Matrix &a) {
+    Matrix operator -(const Matrix &a) {
         Matrix rev(r, c);
         for (int i = 0; i < r; ++i)
             for (int j = 0; j < c; ++j)
                 rev[i][j] = m[i][j] - a.m[i][j];
         return rev;
     }
-    Matrix operator*(const Matrix &a) {
+    Matrix operator *(const Matrix &a) {
         Matrix rev(r, a.c);
         Matrix tmp(a.c, a.r);
         for (int i = 0; i < a.r; ++i)
