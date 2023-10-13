@@ -31,7 +31,7 @@ ll Pollard_Rho(ll x) {
       }
 }
 void prefactor(ll &n, vector<ll> &v) {
-      ll prime[12] = {2,3,5,7,11,13,17,19,23,29,31,37};
+    ll prime[12] = {2,3,5,7,11,13,17,19,23,29,31,37};
 	for(int i=0;i<12;++i) {
 		while(n%prime[i]==0) {
 			v.push_back(prime[i]);
