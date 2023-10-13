@@ -1,16 +1,11 @@
-// 問 a ^ p
-ll fastpow(ll a, int p) {
+const int P = 1e9 + 7;
+#define ll long long
+ll fpow(int a, int b) {
     ll ret = 1;
-    while (p) {
-        if (p & 1) ret *= a;
-        a *= a, p >>= 1;
-    } return ret;
-}
-// 問 (a ^ p) mod m
-ll fastpow(ll a, ll p, ll m) {
-    ll ret = 1;
-    while (p) {
-        if (p & 1) ret = ret * a % m;
-        a = a * a % m, p >>= 1;
-    } return ret;
+    while (b) {
+        if (b & 1)
+            ret = ret * a % P;
+        a = a * a % P;
+    }
+    return ret;
 }
