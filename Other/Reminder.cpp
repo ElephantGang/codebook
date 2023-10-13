@@ -3,7 +3,13 @@ Debug List:
 2. python3 整數除法 "//"
 3. connected / unconnected
 4. 範圍看清楚
-5. eps夠小嗎！！
+5. eps 夠小嗎！！
+6. 可多生 case 測
+7. 找不用胖資結的其他作法 e.g. multiset -> 單調對列
+8. 離散化
+9. 鴿籠原理
+10. TLE 後找人多想 
+
 -------------------------------------------------------
 Lucas's Theorem
     For non-negative integer n,m and prime P,
