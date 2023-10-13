@@ -14,3 +14,6 @@ void linear_inv(){
         inv[i] = (hehe[i] * pre[i-1])%mod;
     }
 }
+/* (a*b*c)^-1 ≡ (a*b*c)
+(a*b*c)^-1 * c ≡ (a*b*c*c) ≡ (a*b)^-1
+c^-1 ≡ (a*b*c)^-1 * (a*b) */
