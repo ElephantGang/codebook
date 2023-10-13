@@ -1,14 +1,8 @@
-//From jacky860226
 typedef long long LL;
 inline LL mul(LL a,LL b,LL m){//a*b%m
     return (a%m)*(b%m)%m;
 }
-/*LL mul(LL a,LL b,LL m){//a*b%m
-    a %= m, b %= m;
-    LL y = (LL)((double)a*b/m+0.5); //fast for m < 2^58 
-    LL r = (a*b-y*m)%m;
-    return r<0 ? r+m : r;
-}*/
+
 template<typename T> T pow(T a,T b,T mod) { //a^b%mod
     T ans = 1;
     while(b) {
@@ -17,7 +11,7 @@ template<typename T> T pow(T a,T b,T mod) { //a^b%mod
         b >>= 1;
     } return ans;
 }
-template<typename T> bool isprime(T n, int num) { //num = 3,7
+template<typename T> bool isprime(T n, int num=3) { //num = 3,7
     int sprp[3] = {2,7,61}; //int範圍可解
     //int llsprp[7] = {2,325,9375,28178,450775,9780504,1795265022}; //至少unsigned long long範圍
     if(n==2) return true;
