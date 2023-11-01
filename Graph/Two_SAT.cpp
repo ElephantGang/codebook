@@ -12,12 +12,12 @@ struct TwoSAT{
         vis[u]=1, SC[u]=sc;
         for (int v:G[u])if (!vis[v])
             dfs(v,G,sc);
-        if　(G==GO)　stk.push_back(u);
+        if (G==GO) stk.push_back(u);
     }
     int scc(int n=MAXv){
         memset(vis,0,sizeof(vis));
         for (int i=0; i<n; i++)
-            if (!vis[i])　dfs(i,GO,-1);
+            if (!vis[i]) dfs(i,GO,-1);
         memset(vis,0,sizeof(vis));
         int sc=0;
         while (!stk.empty()){
@@ -26,12 +26,12 @@ struct TwoSAT{
             stk.pop_back();
         }
     }
-}　SAT;
+} SAT;
 int main(){
     SAT.scc(2*n);
-    bool ok　=　1;
+    bool ok = 1;
     for (int i=0; i<n; i++){
-        if (SAT.SC[2*i]==SAT.SC[2*i+1])　ok　=　0;
+        if (SAT.SC[2*i]==SAT.SC[2*i+1]) ok = 0;
     }
     if (ok) {
         for (int i=0; i<n; i++)
