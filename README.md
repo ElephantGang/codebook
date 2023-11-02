@@ -15,3 +15,4 @@ Codebook of NTHU ElephantGang by Elfnt, Koying, Ststone
 | 2017 Southeast USA        | 2023/10/05    | 6    | 5/11 | 771  | A | . | . | . | E | . | . | H | I | J | . |   |   |   |
 | 2023 NTU Class Preliminary| 2023/10/06    | 13   | 4/13 | 335  | . | . | C | . | E | F | . | H | . | . | . | . | M |   |
 | 2018 Damascus University  | 2023/10/26    | 2    | 8/12 | 893  | A | B | C | . |(E)| F | G | . | I | J | K | . |   |   |
+| 2018 Yokohama             | 2023/11/02    | 34   | 4/11 | 690  | A | B | C | . | . | . | G | . | . | . | . |   |   |   |
