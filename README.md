@@ -2,7 +2,7 @@
 Codebook of NTHU ElephantGang by Elfnt, Koying, Ststone
 
 ## Result
-| Contest                   | Date          | Rank | Solved/Total | Penalty | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
+| Contest                   | Date          | Rank | Solved/Total | Penalty  | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 2023 TOPC                 | 2023/09/16    | 16   | 8/12 | 863  | A | B | C | . | E | . | . | H | . | J | K | L |   |   |
 | 2023 NTHU NCPC            | 2023/09/17    | 3    | 6/8  | 747  | A | B | C | D | E | . | G | H |   |   |   |   |   |   |
@@ -10,9 +10,10 @@ Codebook of NTHU ElephantGang by Elfnt, Koying, Ststone
 | 2023 Taoyuan              | 2023/10/22    | 35   | 9/13 | 1035 | A | B | C | D | . | F | . | H | . | J | . | L | M |   |
 
 ## Training
-| Contest                   | Date          | Rank | Solved/Total | Penalty | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
+| Contest                   | Date          | Rank | Solved/Total | Penalty  | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
 | --------------------------|:-------------:|:----:|:------------:|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 2017 Southeast USA        | 2023/10/05    | 6    | 5/11 | 771  | A | . | . | . | E | . | . | H | I | J |(K)|   |   |   |
 | 2023 NTU Class Preliminary| 2023/10/06    | 13   | 4/13 | 335  | . | . | C | . | E | F | . | H | . | . | . | . | M |   |
 | 2018 Damascus University  | 2023/10/26    | 2    | 8/12 | 893  | A | B | C | . |(E)| F | G | . | I | J | K | . |   |   |
 | 2018 Yokohama             | 2023/11/02    | 34   | 4/11 | 690  | A | B | C | . | . | . | G | . | . | . |(K)|   |   |   |
+| 2020 Seoul                | 2023/11/09    | 22   | 6/12 | 1037 |(A)| B | C | . | E | . | G | H | . | J | . | . |   |   |
