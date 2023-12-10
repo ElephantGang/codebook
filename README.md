@@ -17,4 +17,4 @@ Codebook of NTHU ElephantGang by Elfnt, Koying, Ststone
 | 2018 Damascus University  | 2023/10/26    | 2    | 8/12 | 893  | A | B | C | . |(E)| F | G | . | I | J | K | . |   |   |
 | 2018 Yokohama             | 2023/11/02    | 34   | 4/11 | 690  | A | B | C | . | . | . | G | . | . | . |(K)|   |   |   |
 | 2020 Seoul                | 2023/11/09    | 22   | 6/12 | 1037 |(A)| B | C | . | E | . | G | H | . | J | . | . |   |   |
-| 2023 Jakarta              | 2023/11/09    | 22   | 6/12 | 1037 | A | B | . | . | E | F | . | . | . | . |(H)| . | . |   |
+| 2023 Jakarta              | 2023/12/07    | 29   | 5/13 | 679  | A | B | . | . | E | F | . | . | . | . |(H)| . | . |   |
